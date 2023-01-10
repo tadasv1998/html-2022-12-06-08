@@ -1,0 +1,19 @@
+/* 
+selector {
+    property:value;
+}
+
+*/
+
+body {
+    background-color: rgb(120, 67, 67);
+}
+h1 {
+    color: rgb(83, 120, 67);
+    front-size: 60px;
+    background-color: bisque;
+}
+
+P{
+    color: blue;
+}

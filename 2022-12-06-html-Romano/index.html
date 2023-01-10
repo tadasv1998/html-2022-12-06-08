@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mano pirmasis puslapis</title>
+    <style>
+        body {
+            margin-bottom: 500px;
+        }
+        /* Padaro vietos po tinklapiu */
+        h3 {
+            color:red;
+            background-color: burlywood;
+            /* Pakeičia visu h3 spalva */
+        }
+        #special-heading {color:red;}
+        .color-green{color:green;}
+    </style>
+    <!-- style naudojamas head dalyje -->
+</head>
+
+<body>
+    
+    <!-- 
+        HTML elemtai yra dvieju tipu
+        Block tipo HTML elementai:
+        1. Prasideda naujoje eilutėja.
+        2. Užima pilna tėvinio elemento ploti.
+    -->
+
+    <!-- h 1-6 Heading - pavadinimai  -->
+    <h1>Heading 1</h1>
+    <h2>Heading 2</h2>
+    <H3>Heading 3</H3>
+    <H4>Heading 4</H4>
+    <h5>Heading 5</h5>
+    <H6>Heading 6</H6>
+
+    <div id="headers">
+        <h1>Heading 1</h1>
+        <h2>Heading 2</h2>
+        <H3>Heading 3</H3>
+        <H4>Heading 4</H4>
+        <h5>Heading 5</h5>
+        <H6>Heading 6</H6>
+    </div>
+  
+
+    <!-- P paragrafas -->
+    <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente nihil eos autem aperiam hic cupiditate impedit dolore neque architecto ab corporis vel quas, ut labore pariatur, veritatis repellat velit corrupti!</P>
+    <P>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut assumenda modi natus amet. Reiciendis, asperiores!</P>
+
+    <!-- 
+        1. Visi ol ir ul elemtų vaikiniai elementai privalo būti li elementai.
+        2. li elementai yra naudojami TIK kaip ul arba ol elementai vaikiniai elementai.
+     -->
+
+    <!-- ol- li orderd list - numeruotas sarašas -->
+    <ol>
+        <Li class="color-green">Pirmas</Li>
+        <Li>Antras</Li>
+        <LI>Trečias</LI>
+    </ol>
+
+    <!-- ul - li Unorder list - nenumeruotas sarašas -->
+    <Ul>
+        <Li>Vienas</Li>
+        <Li>Du</Li>
+        <Li>Trys</Li>
+    </Ul>
+
+    <!-- div grupuojantis elementas -->
+
+    <!-- INLINE tipo HTML elementai -->
+
+    <button>click Me</button>
+    <a href="https://google.com" target="_blank">Nuoruoda y išorinį puslapį</a> <!--Nueina y kita tinklapi (Naujas skirtukas)-->
+    <a href="contact.html">Kontaktų puslapis</a> <!--Nueina musu tinklapi y kita skilti-->
+    <a href="#headers">Nuoroda tame pačiame puslapyje</a> <!--Nuscrolina irki tam tikros vietos-->
+    <a href="mailto:info@abc.com">Susisiekti el paštu</a> <!--Nukreipia y email-->
+    <a href="tel:+37065157854">Susisiekti telefonu</a> <!--Nukreipia y telefona-->
+
+    <img src="https://i.pinimg.com/originals/38/f6/5e/38f65e777b638b83e92d0bf7fb309c35.jpg" height="300" width="300" alt="Vilkikas">
+    <img src="images/scania.jpg" height="400" alt="Kitas vilkikas">
+
+    <input type="text" placeholder="Enter your name" maxlength="10">
+    <textarea cols="10" rows="3"></textarea>
+    <input type="button" value="Click">
+    <input type="checkbox" checked>
+    <input type="color">
+    <input type="date">
+    <input type="number" placeholder="Enter your age" value="10" min="5" max="50" step="0.1">
+
+    <!-- b - bold tagas stengtis naudoti kuo mažiau.
+    strong - tagas paryškintas naudojamas norint pabrežti tą dali.
+    i - itallic stilius.
+    b - paryškina.
+    em - paverčia.
+    u - pabrauktas.
+    mark - parškintas geltonai tačiau neina pakeisti spalvos.
+    span - pabrėžti su galimybe pakeisti spalva.
+     -->
+
+    
+
+
+</body>
+</html>
